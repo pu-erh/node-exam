@@ -13,7 +13,7 @@ Hi, here are some rules to carry out this story oav;
 * You **MUST** create a file called `.author` with your username followed by a newline:
 
 ```sh
-~/codeflix/node-exam/ex01 ❯❯❯ cat -e .author
+~/codeflix/node-exam ❯❯❯ cat -e .author
 majdi$
 ```
 
@@ -25,6 +25,7 @@ majdi$
 ## <a name='overview'>🐱 Overview</a>
 
 The purpose of this challenge is to create some node program that will be use Node bascis.
+Take a look at this [link](https://cocalc.com) to test all commands
 
 ## <a name='ex01'>🐨 Ex01</a>
 
