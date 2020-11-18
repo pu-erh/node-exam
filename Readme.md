@@ -100,7 +100,7 @@ This is the content of the file$
 ##### Description
 
 ```sh
-~/codeflix/node-exam/ex01 ❯❯❯ node mycp
+~/codeflix/node-exam/ex03 ❯❯❯ node mycp.js
 ```
 
 The command will be like the real `cp` command that copy files or directories.
@@ -128,6 +128,72 @@ You MUST handle theses features :
 ```
 
 > This will copy a entier directory `dir1` into a `dir2`.
+
+## <a name='ex04'>🐨 Ex04 // BONUS</a>
+
+#### Hi, LS
+
+##### Description
+
+```sh
+~/codeflix/node-exam/ex04 ❯❯❯ node myls.js
+```
+
+The command will be like the real `ls` command that copy files or directories.
+
+> Take a look here for the context [**MAN LS**](http://www.linux-france.org/article/man-fr/man1/ls-1.html)
+
+##### Usage
+
+You MUST handle theses features : 
+
+1/
+
+```sh
+~/codeflix/node-exam/ex03 ❯❯❯ node myls.js
+myls.js
+file1.txt
+file2.txt
+```
+
+> This will list the files on the directory.
+
+2/
+
+```sh
+~/codeflix/node-exam/ex03 ❯❯❯ node myls.js ~/Workspace
+efrei-node.txt
+efrei-python.md
+```
+
+> This will list the files on the directory Workspace
+
+3/
+
+```sh
+~/codeflix/node-exam/ex03 ❯❯❯ node myls.js -a
+myls.js
+file1.txt
+file2.txt
+.author
+```
+
+> This will list all the files with hidden ones.
+
+4/
+
+```sh
+~/codeflix/node-exam/ex03 ❯❯❯ node myls.js -R ~/Efrei
+HTML5-CSS3
+
+/Users/majdi/Efrei/HTML5-CSS3:
+MyCV
+
+/Users/majdi/Efrei/HTML5-CSS3/MyCV:
+index.html main.css
+```
+
+> This will list recursively all the files on a directory
 
 ## <a name='credits'>🐵 Credits</a>
 
