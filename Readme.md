@@ -9,7 +9,7 @@
 
 Hi, here are some rules to carry out this story oav;
 
-* You **MUST** create a git repository named `codeflix-node-exam`
+* You **MUST** create a git repository named `codeflix-ts-exam`
 * You **MUST** create a file called `.author` with your username followed by a newline:
 
 ```sh
@@ -24,8 +24,7 @@ majdi$
 
 ## <a name='overview'>🐱 Overview</a>
 
-The purpose of this challenge is to create some node program that will be use Node bascis.
-Take a look at this [link](https://cocalc.com) to test all commands
+The purpose of this challenge is to create some node program that will be use Node/Typescript bascis.
 
 ## <a name='ex01'>🐨 Ex01</a>
 
@@ -34,7 +33,7 @@ Take a look at this [link](https://cocalc.com) to test all commands
 ##### Description
 
 ```sh
-~/codeflix/node-exam/ex01 ❯❯❯ node mypwd.js
+~/codeflix/node-exam/ex01 ❯❯❯ ts-node mypwd.ts
 ```
 
 The command will be display the current directory
@@ -48,7 +47,7 @@ You MUST handle theses features :
 1/
 
 ```sh
-~/codeflix/node-exam/ex01 ❯❯❯ node mypwd.js
+~/codeflix/node-exam/ex01 ❯❯❯ ts-node mypwd.ts
 /Users/majdi/workspace/efrei/codeflix/node-exam/ex01
 ```
 
@@ -59,7 +58,7 @@ You MUST handle theses features :
 ##### Description
 
 ```sh
-~/codeflix/node-exam/ex02 ❯❯❯ node mycat.js
+~/codeflix/node-exam/ex02 ❯❯❯ ts-node mycat.ts
 ```
 
 The command will be copy and display what a user write on terminal
@@ -73,7 +72,7 @@ You MUST handle theses features :
 1/
 
 ```sh
-~/codeflix/node-exam/ex02 ❯❯❯ node mycat.js
+~/codeflix/node-exam/ex02 ❯❯❯ ts-node mycat.ts
 Hello World
 Hello World
 ```
@@ -81,14 +80,14 @@ Hello World
 2/
 
 ```sh
-~/codeflix/node-exam/ex02 ❯❯❯ node mycat.js a-simple-file.txt
+~/codeflix/node-exam/ex02 ❯❯❯ ts-node mycat.ts a-simple-file.txt
 This is the content of the file
 ```
 
 3/
 
 ```sh
-~/codeflix/node-exam/ex02 ❯❯❯ node mycat.js -e a-simple-file.txt
+~/codeflix/node-exam/ex02 ❯❯❯ ts-node mycat.ts -e a-simple-file.txt
 This is the content of the file$
 ```
 
@@ -100,7 +99,7 @@ This is the content of the file$
 ##### Description
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ node mycp.js
+~/codeflix/node-exam/ex03 ❯❯❯ ts-node mycp.ts
 ```
 
 The command will be like the real `cp` command that copy files or directories.
@@ -114,7 +113,7 @@ You MUST handle theses features :
 1/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ node mycp.js file1 file2
+~/codeflix/node-exam/ex03 ❯❯❯ ts-node mycp.ts file1 file2
 ~/codeflix/node-exam/ex03 ❯❯❯
 ```
 
@@ -124,7 +123,7 @@ You MUST handle theses features :
 2/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ node mycp.js -r dir1 dir2
+~/codeflix/node-exam/ex03 ❯❯❯ ts-node mycp.ts -r dir1 dir2
 ```
 
 > This will copy a entier directory `dir1` into a `dir2`.
@@ -136,7 +135,7 @@ You MUST handle theses features :
 ##### Description
 
 ```sh
-~/codeflix/node-exam/ex04 ❯❯❯ node myls.js
+~/codeflix/node-exam/ex04 ❯❯❯ ts-node myls.ts
 ```
 
 The command will be like the real `ls` command that copy files or directories.
@@ -150,7 +149,7 @@ You MUST handle theses features :
 1/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ node myls.js
+~/codeflix/node-exam/ex03 ❯❯❯ ts-node myls.ts
 myls.js
 file1.txt
 file2.txt
@@ -161,7 +160,7 @@ file2.txt
 2/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ node myls.js ~/Workspace
+~/codeflix/node-exam/ex03 ❯❯❯ ts-node myls.ts ~/Workspace
 efrei-node.txt
 efrei-python.md
 ```
@@ -171,8 +170,8 @@ efrei-python.md
 3/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ node myls.js -a
-myls.js
+~/codeflix/node-exam/ex03 ❯❯❯ ts-node myls.ts -a
+myls.ts
 file1.txt
 file2.txt
 .author
@@ -183,13 +182,13 @@ file2.txt
 4/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ node myls.js -R ~/Efrei
+~/codeflix/node-exam/ex03 ❯❯❯ ts-node myls.ts -R ~/School
 HTML5-CSS3
 
-/Users/majdi/Efrei/HTML5-CSS3:
+/Users/majdi/School/HTML5-CSS3:
 MyCV
 
-/Users/majdi/Efrei/HTML5-CSS3/MyCV:
+/Users/majdi/School/HTML5-CSS3/MyCV:
 index.html main.css
 ```
 
@@ -197,4 +196,4 @@ index.html main.css
 
 ## <a name='credits'>🐵 Credits</a>
 
-Craft with :heart: by Efrei in **Paris**.
+Craft with :heart: by Majdi in **Paris**.
