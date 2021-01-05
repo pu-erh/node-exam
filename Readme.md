@@ -18,7 +18,7 @@ majdi$
 ```
 
 > Of course, you can talk about the subject with other developers, peer-learning is
-> the key to be a better developer. Don't hesitate to ask questions or help people in Teams but don't do any copy-paste ! (➡️ 0).
+> the key to be a better developer. Don't hesitate to ask questions or help people in Zoom but don't do any copy-paste ! (➡️ 0).
 
 > Don't forget, there is no useless question :-)
 
