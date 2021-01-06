@@ -48,7 +48,7 @@ You MUST handle theses features :
 
 ```sh
 ~/codeflix/node-exam/ex01 ❯❯❯ npx ts-node mypwd.ts
-/Users/majdi/workspace/efrei/codeflix/node-exam/ex01
+/Users/majdi/workspace/codeflix/node-exam/ex01
 ```
 
 ## <a name='ex02'>🐨 Ex02</a>
