@@ -33,7 +33,7 @@ The purpose of this challenge is to create some node program that will be use No
 ##### Description
 
 ```sh
-~/codeflix/node-exam/ex01 ❯❯❯ ts-node mypwd.ts
+~/codeflix/node-exam/ex01 ❯❯❯ npx ts-node mypwd.ts
 ```
 
 The command will be display the current directory
@@ -47,7 +47,7 @@ You MUST handle theses features :
 1/
 
 ```sh
-~/codeflix/node-exam/ex01 ❯❯❯ ts-node mypwd.ts
+~/codeflix/node-exam/ex01 ❯❯❯ npx ts-node mypwd.ts
 /Users/majdi/workspace/efrei/codeflix/node-exam/ex01
 ```
 
@@ -58,7 +58,7 @@ You MUST handle theses features :
 ##### Description
 
 ```sh
-~/codeflix/node-exam/ex02 ❯❯❯ ts-node mycat.ts
+~/codeflix/node-exam/ex02 ❯❯❯ npx ts-node mycat.ts
 ```
 
 The command will be copy and display what a user write on terminal
@@ -72,7 +72,7 @@ You MUST handle theses features :
 1/
 
 ```sh
-~/codeflix/node-exam/ex02 ❯❯❯ ts-node mycat.ts
+~/codeflix/node-exam/ex02 ❯❯❯ npx ts-node mycat.ts
 Hello World
 Hello World
 ```
@@ -80,14 +80,14 @@ Hello World
 2/
 
 ```sh
-~/codeflix/node-exam/ex02 ❯❯❯ ts-node mycat.ts a-simple-file.txt
+~/codeflix/node-exam/ex02 ❯❯❯ npx ts-node mycat.ts a-simple-file.txt
 This is the content of the file
 ```
 
 3/
 
 ```sh
-~/codeflix/node-exam/ex02 ❯❯❯ ts-node mycat.ts -e a-simple-file.txt
+~/codeflix/node-exam/ex02 ❯❯❯ npx ts-node mycat.ts -e a-simple-file.txt
 This is the content of the file$
 ```
 
@@ -99,7 +99,7 @@ This is the content of the file$
 ##### Description
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ ts-node mycp.ts
+~/codeflix/node-exam/ex03 ❯❯❯ npx ts-node mycp.ts
 ```
 
 The command will be like the real `cp` command that copy files or directories.
@@ -113,7 +113,7 @@ You MUST handle theses features :
 1/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ ts-node mycp.ts file1 file2
+~/codeflix/node-exam/ex03 ❯❯❯ npx ts-node mycp.ts file1 file2
 ~/codeflix/node-exam/ex03 ❯❯❯
 ```
 
@@ -123,7 +123,7 @@ You MUST handle theses features :
 2/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ ts-node mycp.ts -r dir1 dir2
+~/codeflix/node-exam/ex03 ❯❯❯ npx ts-node mycp.ts -r dir1 dir2
 ```
 
 > This will copy a entier directory `dir1` into a `dir2`.
@@ -135,7 +135,7 @@ You MUST handle theses features :
 ##### Description
 
 ```sh
-~/codeflix/node-exam/ex04 ❯❯❯ ts-node myls.ts
+~/codeflix/node-exam/ex04 ❯❯❯ npx ts-node myls.ts
 ```
 
 The command will be like the real `ls` command that copy files or directories.
@@ -149,7 +149,7 @@ You MUST handle theses features :
 1/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ ts-node myls.ts
+~/codeflix/node-exam/ex03 ❯❯❯ npx ts-node myls.ts
 myls.js
 file1.txt
 file2.txt
@@ -160,7 +160,7 @@ file2.txt
 2/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ ts-node myls.ts ~/Workspace
+~/codeflix/node-exam/ex03 ❯❯❯ npx ts-node myls.ts ~/Workspace
 efrei-node.txt
 efrei-python.md
 ```
@@ -170,7 +170,7 @@ efrei-python.md
 3/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ ts-node myls.ts -a
+~/codeflix/node-exam/ex03 ❯❯❯ npx ts-node myls.ts -a
 myls.ts
 file1.txt
 file2.txt
@@ -182,7 +182,7 @@ file2.txt
 4/
 
 ```sh
-~/codeflix/node-exam/ex03 ❯❯❯ ts-node myls.ts -R ~/School
+~/codeflix/node-exam/ex03 ❯❯❯ npx ts-node myls.ts -R ~/School
 HTML5-CSS3
 
 /Users/majdi/School/HTML5-CSS3:
