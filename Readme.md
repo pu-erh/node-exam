@@ -192,6 +192,18 @@ MyCV
 index.html main.css
 ```
 
+5/
+
+```sh
+~/codeflix/node-exam/ex03 ❯❯❯ npx ts-node myls.ts -l node0
+-rw-r--r--   1 majdi  staff    62 Jan  6 09:56 mycat.ts
+-rw-r--r--   1 majdi  staff    58 Jan  6 09:55 mypwd.ts
+drwxr-xr-x  20 majdi  staff   640 Jan  6 09:50 node_modules
+-rw-r--r--   1 majdi  staff  5146 Jan  6 09:50 package-lock.json
+-rw-r--r--   1 majdi  staff   444 Jan  6 09:50 package.json
+-rw-r--r--   1 majdi  staff   199 Jan  6 09:10 tsconfig.json
+```
+
 > This will list recursively all the files on a directory
 
 ## <a name='credits'>🐵 Credits</a>
